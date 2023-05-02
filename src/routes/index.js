@@ -10,11 +10,11 @@ export default function Routes() {
     <Router>
       <ScrollToTop/>
       <Switch>
-        <Route exact path="/">
+        <Route path="/" exact>
           <Home />
         </Route>
         <Route path="/pokemon/:id">
-        <PokeDetail/>
+          <PokeDetail/>
         </Route>
         <Route>
           <FourOFour />
